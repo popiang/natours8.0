@@ -31,6 +31,9 @@
 6. create db in mongo db atlas
 7. in tourModel.js create 
 	- tourSchema with all the validations
+	- name, slug, duration, maxGroupSize, difficulty, ratingsAverage, 
+	  ratingsQuantity, price, priceDiscount, summary, description,
+	  imageCover, images, createdAt, startDates, secretTour
 8. in tourController create
 	- getAllTours
 	- getTourById
